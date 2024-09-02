@@ -99,7 +99,6 @@ run_test() {
         speed_test '江苏无锡' '联通' '' 'aHR0cDovL3NwZWVkdGVzdDIubml1dGsuY29tLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDIubml1dGsuY29tLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvdXBsb2Fk'
         speed_test '四川成都' '联通' '' 'aHR0cDovL2N1c2NzcGVlZC4xNjlvbC5jb20ucHJvZC5ob3N0cy5vb2tsYXNlcnZlci5uZXQ6ODA4MC9kb3dubG9hZA==' 'aHR0cDovL2N1c2NzcGVlZC4xNjlvbC5jb20ucHJvZC5ob3N0cy5vb2tsYXNlcnZlci5uZXQ6ODA4MC91cGxvYWQ='
         speed_test '浙江华数' '联通' '' 'aHR0cDovL3NwZWVkdGVzdC53YXN1LmNuLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdC53YXN1LmNuLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvdXBsb2Fk'
-        speed_test '江西南昌' '联通' '' 'aHR0cDovL3NwZWVkdGVzdC5qeHVuaWNvbS5jb206ODA4MC9kb3dubG9hZA==' 'aHR0cDovL3NwZWVkdGVzdC5qeHVuaWNvbS5jb206ODA4MC91cGxvYWQ='		
     fi
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 5 ]]; then
