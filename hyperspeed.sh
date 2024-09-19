@@ -96,20 +96,27 @@ run_test() {
         speed_test '上海' '电信' '' 'aHR0cDovL3NwZWVkdGVzdDEub25saW5lLnNoLmNuOjgwODAvZG93bmxvYWQK' 'aHR0cDovL3NwZWVkdGVzdDEub25saW5lLnNoLmNuOjgwODAvdXBsb2FkCg=='
         speed_test '江苏镇江5G' '电信' '' 'aHR0cDovLzVnemhlbmppYW5nLnNwZWVkdGVzdC5qc2luZm8ubmV0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovLzVnemhlbmppYW5nLnNwZWVkdGVzdC5qc2luZm8ubmV0OjgwODAvdXBsb2Fk'
         speed_test '四川成都' '电信' '' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuMTg5LmNuOjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuc2MuMTg5LmNuOjgwODAvdXBsb2Fk'  
+        speed_test '南京3' '电信' '' 'aHR0cDovLzExNS4xNjkuMjIuMjI6ODA4MC9kb3dubG9hZA==' 'aHR0cDovLzExNS4xNjkuMjIuMjI6ODA4MC91cGxvYWQ='
+        speed_test '长沙' '电信' '' 'aHR0cDovLzEwNi4xNi4xMTkuMjU0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovLzEwNi4xNi4xMTkuMjU0OjgwODAvdXBsb2Fk'        
     fi
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 4 ]]; then
         speed_test '江苏无锡' '联通' '' 'aHR0cDovL3NwZWVkdGVzdDIubml1dGsuY29tLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDIubml1dGsuY29tLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvdXBsb2Fk'
         speed_test '四川成都' '联通' '' 'aHR0cDovL2N1c2NzcGVlZC4xNjlvbC5jb20ucHJvZC5ob3N0cy5vb2tsYXNlcnZlci5uZXQ6ODA4MC9kb3dubG9hZA==' 'aHR0cDovL2N1c2NzcGVlZC4xNjlvbC5jb20ucHJvZC5ob3N0cy5vb2tsYXNlcnZlci5uZXQ6ODA4MC91cGxvYWQ='
         speed_test '浙江华数' '联通' '' 'aHR0cDovL3NwZWVkdGVzdC53YXN1LmNuLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdC53YXN1LmNuLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvdXBsb2Fk'
+        speed_test '杭州' '联通' '' 'aHR0cDovLzIxOC4xMDkuMTkuMjI6ODA4MC9kb3dubG9hZA==' 'aHR0cDovLzIxOC4xMDkuMTkuMjI6ODA4MC91cGxvYWQ='
+        speed_test '北京' '联通' '' 'aHR0cDovLzEyNC42NS4yMS4zMTo4MDgwL2Rvd25sb2Fk' 'aHR0cDovLzEyNC42NS4yMS4zMTo4MDgwL3VwbG9hZA=='
     fi
 
     if [[ ${selection} == 1 ]] || [[ ${selection} == 5 ]]; then
         speed_test '重庆' '移动' '' 'aHR0cDovL3NwZWVkdGVzdDEuY3FjY24uY29tLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvZG93bmxvYWQ=' 'aHR0cDovL3NwZWVkdGVzdDEuY3FjY24uY29tLnByb2QuaG9zdHMub29rbGFzZXJ2ZXIubmV0OjgwODAvdXBsb2Fk'
+	    speed_test '重庆2' '移动' '' 'aHR0cDovLzExNy41OS4xMTUuMjo4MDgwL2Rvd25sb2Fk' 'aHR0cDovLzExNy41OS4xMTUuMjo4MDgwL3VwbG9hZA=='
+        speed_test '黑龙江' '移动' '' 'aHR0cDovLzExMS40Mi45My4xMDU6NTEwODAvZG93bmxvYWQ=' 'aHR0cDovLzExMS40Mi45My4xMDU6NTEwODAvdXBsb2Fk'  
     fi
 
     if [[ ${selection} == 6 ]]; then
         speed_test '昆山杜克大学' '苏州' '' 'aHR0cDovL3NwZWVkdGVzdC5kdWtla3Vuc2hhbi5lZHUuY246ODA4MC9kb3dubG9hZA==' 'aHR0cDovL3NwZWVkdGVzdC5kdWtla3Vuc2hhbi5lZHUuY246ODA4MC91cGxvYWQ='
+	    speed_test '昆山' '教育网' '' 'aHR0cDovLzE4MC4yMDguNTkuMjMwOjgwODAvZG93bmxvYWQ=' 'aHR0cDovLzE4MC4yMDguNTkuMjMwOjgwODAvdXBsb2Fk'        
     fi
 
     if [[ ${selection} == 7 ]]; then
