@@ -25,7 +25,7 @@ check_bimc() {
 print_info() {
     echo "——————————————————————————— HyperSpeed —————————————————————————————"
     echo "         bash <(wget -qO- https://bench.im/hyperspeed)"
-    echo "         项目修改自: https://hub.apw.app/zq/superspeed/"
+    echo "         项目修改自: https://github.com/zq/superspeed/"
     echo "   脚本更新: 2023/4/13 | 组件更新: 2023/11/1 | 组件版本: 0.17.0"
     echo "————————————————————————————————————————————————————————————————————"
 }
